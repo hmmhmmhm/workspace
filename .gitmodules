@@ -1,3 +1,33 @@
 [submodule "@secondary/stably"]
 	path = @secondary/stably
 	url = https://github.com/hmmhmmhm/stably.git
+[submodule "@secondary/sabre"]
+	path = @secondary/sabre
+	url = https://github.com/hmmhmmhm/sabre
+[submodule "@secondary/folder-logger"]
+	path = @secondary/folder-logger
+	url = https://github.com/hmmhmmhm/folder-logger
+[submodule "@secondary/tetrapod"]
+	path = @secondary/tetrapod
+	url = https://github.com/hmmhmmhm/tetrapod
+[submodule "@secondary/cancelable-event"]
+	path = @secondary/cancelable-event
+	url = https://github.com/hmmhmmhm/cancelable-event
+[submodule "@secondary/string-error-parse"]
+	path = @secondary/string-error-parse
+	url = https://github.com/hmmhmmhm/string-error-parse
+[submodule "@secondary/capsulable"]
+	path = @secondary/capsulable
+	url = https://github.com/hmmhmmhm/capsulable
+[submodule "@secondary/infinite.js"]
+	path = @secondary/infinite.js
+	url = https://github.com/hmmhmmhm/infinite.js
+[submodule "@primary/sonar"]
+	path = @primary/sonar
+	url = https://github.com/hmmhmmhm/sonar
+[submodule "@primary/dash"]
+	path = @primary/dash
+	url = https://github.com/hmmhmmhm/dash.git
+[submodule "@primary/swarm"]
+	path = @primary/swarm
+	url = https://github.com/hmmhmmhm/swarm.git

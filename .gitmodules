@@ -1,0 +1,3 @@
+[submodule "@secondary/stably"]
+	path = @secondary/stably
+	url = https://github.com/hmmhmmhm/stably.git

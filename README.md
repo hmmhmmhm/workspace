@@ -72,3 +72,9 @@ echo "Done!"
 ```bash
 git submodule update <module-name>
 ```
+
+### Specific module initialize
+
+```bash
+git checkout master
+```

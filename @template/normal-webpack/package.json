@@ -1,0 +1,26 @@
+{
+  "name": "프로젝트 제목",
+  "version": "1.0.0",
+  "description": "프로젝트 설명",
+  "main": "스크립트 이름",
+  "scripts": {
+    "lint": "eslint *.js --fix",
+    "build": "webpack --config webpack.config.js",
+    "test": "node ./node_modules/@babel/node/bin/babel-node.js ./test/test.js"
+  },
+  "author": "hmmhmmhm",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/runtime": "^7.1.5",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+  }
+}

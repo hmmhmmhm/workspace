@@ -1,0 +1,38 @@
+{
+    "name": "null",
+    "description": "",
+    "version": "1.0.0",
+    "author": "",
+    "keywords": [],
+    "license": "MIT",
+    "scripts": {
+        "start": "ts-node ./tests/test.ts",
+        "build": "webpack --config webpack.config.js",
+        "lint": "tslint --fix -c ./tslint.json './src/**/*.ts*' './tests/**/*.ts*' --force",
+        "clean-dist": "rm -f -r -d dist",
+        "test": "jest --watch --coverage --config=configs/jest.json"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.2.3",
+        "@babel/preset-react": "^7.0.0",
+        "@types/node": "^10.12.18",
+        "awesome-typescript-loader": "^5.2.1",
+        "babel-loader": "^8.0.4",
+        "express": "^4.16.4",
+        "jest": "^23.6.0",
+        "jest-extended": "^0.11.0",
+        "ts-node": "^7.0.1",
+        "tslint": "^5.12.0",
+        "tslint-config-standard": "^8.0.1",
+        "typescript": "^3.2.2",
+        "uglifyjs-webpack-plugin": "^2.1.1",
+        "webpack": "^4.28.3",
+        "webpack-cli": "^3.2.0",
+        "webpack-dev-middleware": "^3.4.0",
+        "webpack-dev-server": "^3.1.14",
+        "webpack-merge": "^4.1.5"
+    },
+    "dependencies": {}
+}

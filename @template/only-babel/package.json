@@ -1,0 +1,23 @@
+{
+    "name": "프로젝트 제목",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/프로젝트 파일명.js",
+    "scripts": {
+      "build": "babel src -d dist && node test/test.js",
+      "test": "node test/test.js"
+    },
+    "keywords": [],
+    "author": "hmmhmmhm",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/cli": "^7.0.0",
+      "@babel/core": "^7.0.0",
+      "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+      "@babel/plugin-transform-flow-strip-types": "^7.0.0",
+      "@babel/preset-env": "^7.0.0",
+      "@babel/register": "^7.0.0"
+    },
+    "dependencies": {}
+  }
+  

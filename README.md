@@ -4,6 +4,25 @@
 
 Personal workspace for fast work from outdoor 😅
 
+
+
+## Git Setup Command
+
+```bash
+git config --global user.name "hmmhmmhm"
+git config --global user.email hmmhmmhm@naver.com
+```
+
+
+
+## Git Login Command
+
+```bash
+git clone https://github.com/hmmhmmhm/private_mds.git
+```
+
+
+
 ## Download Git (All Download)
 
 ```bash
@@ -13,6 +32,8 @@ git submodule init
 git submodule update
 echo "Done!"
 ```
+
+
 
 ### Add specific sub module
 

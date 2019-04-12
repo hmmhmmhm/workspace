@@ -34,3 +34,6 @@
 [submodule "private_mds"]
 	path = private_mds
 	url = https://github.com/hmmhmmhm/private_mds
+[submodule "smart-factory"]
+	path = smart-factory
+	url = https://github.com/hmmhmmhm/smart-factory

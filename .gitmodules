@@ -37,3 +37,6 @@
 [submodule "smart-factory"]
 	path = smart-factory
 	url = https://github.com/hmmhmmhm/smart-factory
+[submodule "entry-engine"]
+	path = entry-engine
+	url = https://github.com/hmmhmmhm/entry-engine
